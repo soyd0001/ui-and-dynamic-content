@@ -1,0 +1,123 @@
+html {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+
+.masthead {
+    padding: 4rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: none;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+h3{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+body{
+    width: 100%;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-color: #323232;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.general-content{
+    max-width: 45rem;
+    margin: auto;
+}
+
+.box{
+    max-width: 20rem;
+    margin: auto;
+    margin-top: -3rem;
+    background: rgba(35, 35, 35, 0.7);
+    position: relative;
+    padding: 2em 1em;
+}
+
+input {
+    margin: 1em 0;
+    color: #000;
+}
+
+button {
+    margin: 0;
+    color: #000;
+}
+.data-entry{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+.footer-dark {
+  padding:2rem 0;
+  color:#f0f9ff;
+}
+
+.footer-dark .item p {
+    opacity:0.6;
+    margin-bottom:0;
+    margin-top:20px;
+}
+
+.footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
